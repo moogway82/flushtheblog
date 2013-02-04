@@ -17,7 +17,8 @@ a {
     height: 200px; /* 292px / 960px */
     width: auto;
     box-sizing: border-box;
-    margin: 0 0 10px 0;
+    margin: 0 0 0 0;
+    border: 10px solid #000;
     
     color: #fff;
     background-image: url(imgs/banner2.jpg);
@@ -26,6 +27,11 @@ a {
     background-color: #000;
     background-size: 100%;
     font-style: italic;
+}
+
+#nav {
+    margin: 20px 0;
+    overflow: hidden;
 }
 
 #nav > ul {
@@ -64,10 +70,19 @@ a {
 }
 
 .content {
-    
+    width: 80%;
+    float: left;
     clear: both;
 }
 
 #footer {
     padding-top: 100px;
+    
+    clear: both;
+}
+
+.aside {
+    width: 20%;
+    float: right;
+    
 }
