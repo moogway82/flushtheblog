@@ -1,5 +1,7 @@
 <?php
 
+/** POINTLESS CHANGE!! **/
+
 /**
  *  How my blog should work:
  *  1. Nice url like www.blog.com/blog/thingie - strip it and figure out what post to show (slugs)
